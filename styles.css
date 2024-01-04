@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+#icon {
+  width: auto;
+  height: fit-content;
+  font-family: Poppins;
+  font-size: medium;
+  background: #f94a3d;
+  color: white;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+#Icon_name {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #f94a3d;
+}
+nav button {
+  font-size: auto;
+  color: white;
+  background-color: #f94a3d;
+  border: none;
+}
+#hero_section {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  padding-inline-start: 50px;
+  background-color: #fdecec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero_section button {
+  color: white;
+  background-color: #f94a3d;
+}
+#hero_section h1 > b {
+  color: #f94a3d;
+}
+#hero_sec_image img {
+  width: 500px;
+  height: 500px;
+}
+#hero_section2 {
+  padding-left: 50px;
+}
+#hero3_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#hero_section3 h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+#hero_section3_option {
+  padding-left: 350px;
+  text-align: center;
+}
+#cart_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#cart_items1,
+#cart_items2,
+#cart_items3,
+#cart_items4,
+#cart_items5 {
+  padding: start 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#cart_items button {
+  border: 2px solid #f94a3d;
+  color: #f94a3d;
+  padding: 20px;
+}
+#hero_section4 {
+  display: flex;
+  justify-content: space-around;
+}
+#hero_section4 img {
+  border-radius: 50%;
+}
+#bar {
+  width: 1px;
+  height: 50px;
+  background-color: #f94a3d;
+}
+#author {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+#author_detail b {
+  color: #f94a3d;
+}
+
+#author1 {
+  display: flex;
+  justify-content: space-between;
+}
+#hero_section5 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  background-color: red;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#hero_section5 h4 {
+  color: white;
+}
+#hero_section5 p {
+  color: #fdecec;
+}
+#hero5_img {
+  background-color: transparent;
+}
+footer {
+  background-color: #fdecec;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.fa-linkedin-square {
+  background: black;
+  color: white;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#support {
+  display: flex;
+}
+#support div {
+  padding-right: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
